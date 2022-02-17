@@ -6,10 +6,6 @@ BASE_URL = "https://books.toscrape.com/"
 CAT_URL = BASE_URL + "catalogue/"
 
 
-# os.environ['http_proxy']='http://sof%5Cmanuel.facio:En3r0202022@lsmvwsa01.sofse.gob.ar:3128'
-# os.environ['https_proxy']='https://sof%5Cmanuel.facio:En3r0202022@lsmvwsa01.sofse.gob.ar:3128'
-
-
 class BooksSpider(scrapy.Spider):
     name = "books_spider"
     start_urls = [
